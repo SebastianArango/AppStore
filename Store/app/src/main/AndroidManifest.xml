@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sebastian.store" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StorePpal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StoreMenu"
+            android:label="@string/title_activity_store_menu" >
+        </activity>
+        <activity
+            android:name=".LanzaMenu"
+            android:label="@string/title_activity_lanza_menu" >
+        </activity>
+        <activity
+            android:name=".Element"
+            android:label="@string/title_activity_element" >
+        </activity>
+        <activity
+            android:name=".Carrito"
+            android:label="@string/title_activity_carrito" >
+        </activity>
+        <activity
+            android:name=".Detalle_Producto"
+            android:label="@string/title_activity_detalle__producto" >
+        </activity>
+    </application>
+
+</manifest>
